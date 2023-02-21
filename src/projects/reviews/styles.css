@@ -1,0 +1,95 @@
+.container {
+  background-color: #f5f3ff;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin: 4rem;
+  text-align: center;
+}
+.review {
+  min-width: 8rem;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.022),
+    8.7px 8.7px 6.9px rgba(0, 0, 0, 0.031),
+    17.7px 17.7px 14.2px rgba(0, 0, 0, 0.039),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.048),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+  padding: 1.5rem;
+  width: 60%;
+}
+.img-container {
+  background-color: #6b21a8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+  width: 105px;
+}
+.person-img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.i-quote {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  height: 2rem;
+  width: 2rem;
+  bottom: 7rem;
+  right: 0.5rem;
+  background-color: #6b21a8;
+  border-radius: 50%;
+}
+.name {
+  margin: 0 8px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: black;
+}
+.job {
+  margin: 4px;
+  text-transform: uppercase;
+  color: #9333ea;
+  font-weight: 500;
+}
+.desp {
+  word-wrap: break-word;
+  font-weight: 500;
+  margin: 1.5rem;
+}
+.prev {
+  margin: 0.5rem;
+  color: #9333ea;
+  font-size: 1.5rem;
+}
+.prev:hover {
+  cursor: pointer;
+  background-color: #d8b4fe;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+.next {
+  margin: 0.5rem;
+  color: #581c87;
+  font-size: 1.5rem;
+}
+.next:hover {
+  cursor: pointer;
+  background-color: #d8b4fe;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
