@@ -1,0 +1,30 @@
+.body {
+  color: #0e7490;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+.compCard {
+  display: flex;
+  padding: 0.5rem;
+  width: 100%;
+  flex-direction: column;
+}
+.up {
+  display: flex column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  margin-top: 1.25rem;
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  border-radius: 8px;
+}
+.up:hover {
+  cursor: pointer;
+  background-color: #cbd5e1;
+  transition: all 0.2s;
+}
